@@ -1,3 +1,9 @@
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px; 
+  padding-bottom: 20px; 
+}
+
 .double-line-table {
   width: 100%;
   border-collapse: collapse;
@@ -5,38 +11,35 @@
 
 .double-line-table th,
 .double-line-table td {
-  border: 3px double #000; 
+  border: 2px solid #ddd; 
   padding: 8px;
   text-align: center;
 }
 
+
 .double-line-table th {
-  background-color: #f2f2f2;
+  background-color: #f4f4f4;
 }
 
-.table-container {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
 
 @media (max-width: 600px) {
-  .double-line-table th,
+  .double-line-table {
+    width: 100%;
+    border: 0; 
+  }
+
+  .double-line-table thead {
+    display: none; 
+  }
+
   .double-line-table td {
     display: block;
     width: 100%;
     box-sizing: border-box;
-  }
-
-  .double-line-table th {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #f2f2f2;
-  }
-
-  .double-line-table td {
     position: relative;
-    padding-left: 50%;
+    border: 1px solid #ddd; 
+    padding: 10px 0;
+    text-align: right;
   }
 
   .double-line-table td::before {
@@ -47,6 +50,8 @@
     padding-left: 10px;
     white-space: nowrap;
     font-weight: bold;
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
+    top: 0;
+    z-index: 1;
   }
 }
