@@ -38,5 +38,5 @@ npm test
 
 -**Deployment**
 
- `https://nextjsinteractive-dashboard-jrrgwdewz-ankittiwaris-projects.vercel.app`
+ `nextjsinteractive-dashboard-8pijuter3-ankittiwaris-projects.vercel.app`
 
