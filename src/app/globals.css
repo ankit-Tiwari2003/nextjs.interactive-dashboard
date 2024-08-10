@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+
+.light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.dark {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.gradient {
+  background: linear-gradient(#1d06f0 20%, #3498db 80%, #100df0 100%) no-repeat;
+
+  background-size: 100% 100%;
+
+  background-attachment: fixed;  
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.settings-item {
+  margin-bottom: 15px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.dashboard {
+  padding: 20px;
+  
+  text-shadow: -1px 0 #eeebeb, 0 1px #e7e2e2, 1px 0 #f1ecec, 0 -1px #eee9e9;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.widget-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Default text color for light theme */
+}
+
+
+
+.nav-button {
+  background-color: #f1f4f7; 
+  color: rgb(8, 8, 8);
+  padding: 10px 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #2980b9; 
+  transform: translateY(-3px); 
+}
+
+.indexpage_nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.indexpage_nav li {
+  display: inline;
+}
+
+.home {
+  padding: 20px;
+}
+
+
+.settings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  color: #181818;
+}
+
+.settings-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+
+.settings-item label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.save_btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save_btn:hover {
+  background-color: #005bb5;
+}
+
+
+.settings {
+  padding: 20px;
+}
+
+.settings-item {
+  margin-bottom: 15px;
+}
+
+.home_text{
+  /* text-shadow: -1px 0 #eeebeb, 0 1px #e7e2e2, 1px 0 #f1ecec, 0 -1px #eee9e9; */
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.setting_text{
+  /* text-shadow: -1px 0 #eeebeb, 0 1px #e7e2e2, 1px 0 #f1ecec, 0 -1px #eee9e9; */
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer {
+  text-align: center;
+  /* margin-top: 20px; */
+  padding: 10px;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  color: #181818;
+  top:0px;
+}

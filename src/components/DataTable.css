@@ -1,0 +1,16 @@
+.double-line-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .double-line-table th,
+  .double-line-table td {
+    border: 3px double #000; 
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .double-line-table th {
+    background-color: #f2f2f2;
+  }
+  
